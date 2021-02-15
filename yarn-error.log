@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node@10/10.22.0/bin/node /Users/tkallio/.yarn/bin/yarn.js init
+
+PATH: 
+  /usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/sbin:/usr/local/opt/mysql-client/bin:/usr/local/opt/postgresql@10/bin:/usr/local/opt/openssl/bin:/usr/local/opt/node@10/bin:/usr/local/opt/gettext/bin:/Users/tkallio/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.22.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/tkallio/.yarn/lib/cli.js:137009:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

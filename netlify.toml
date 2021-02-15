@@ -1,5 +1,5 @@
 # example netlify.toml
-#[build]
-#  command = ""
-#  functions = "functions"
-#  publish = ""
+[build]
+  command = "echo 'default context'"
+  functions = "functions"
+  publish = "site/"
